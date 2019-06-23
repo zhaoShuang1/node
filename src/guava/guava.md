@@ -1,7 +1,8 @@
-﻿### Guava
+### Guava
 - Guava工程包含了若干被Google的 Java项目广泛依赖 的核心库，例如：集合 [collections] 、缓存 [caching] 、原生类型支持 [primitives support] 、并发库 [concurrency libraries] 、
 通用注解 [common annotations] 、字符串处理 [string processing] 、I/O 等等。
 	- 基本工具 [Basic utilities]
+	    - [Ordering 一个功能强大的比较器](https://github.com/google/guava/wiki/OrderingExplained)
 	 	- Objects、MoreObjects、ComparisonChain
 	 		- MoreObjects 生成toString()方法
     	 		```
@@ -228,6 +229,10 @@
     				//c:d
     	 		```
 	- 集合[Collections]
+	    - [不可变集合](https://github.com/google/guava/wiki/ImmutableCollectionsExplained)
+	    - [新集合类型](https://github.com/google/guava/wiki/NewCollectionTypesExplained)
+	    - [多功能的集合工具类](https://github.com/google/guava/wiki/CollectionUtilitiesExplained)
+	    - [扩展工具类](https://github.com/google/guava/wiki/CollectionHelpersExplained)
 	- 缓存[Caches]
 		- guava提供了一个简单的LRU缓存实现。
 			```
